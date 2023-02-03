@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-y: hidden;
+}
+body {
+  background-color: #f5f5f5;
+  height: 100vh;
+}
+header {
+  background-color: #fff;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  height: 30%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.battery-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-bottom: 10px;
+  flex-direction: column;
+  max-width: 500px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.item {
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #333;
+  margin-right: 20px;
+}
+
+span {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: green;
+}
+
+a {
+  text-decoration: none;
+  color: green;
+  padding: 5px;
+  border: 1px solid green;
+  border-radius: 5px;
+  margin: 10px;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.visit:hover {
+  background-color: green;
+  color: white;
+}
+/* Footer */
+footer * {
+  border: 0px;
+}
+
+footer {
+  border-top: 1px solid #ccc;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5px;
+  background-color: white;
+  color: #ffff;
+  height: 34%;
+}
+
+footer .about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-text {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #4e4e4e;
+}
+
+footer .contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* padding: 2px; */
+  color: #0090ff;
+  margin-bottom: 0px;
+  font-size: 1rem;
+}
+footer .socials {
+  border-bottom: 2px solid #0090ff;
+  padding-top: 5px;
+}
+
+footer .contact span {
+  font-size: 20px;
+}
+footer .contact span i {
+  font-size: 20px;
+}
+footer .contact i {
+  padding: 0px;
+  font-size: 15px;
+}
+
+/* Icons Hover Colors */
+footer .socials #wa i:hover {
+  color: green;
+  font-size: 25px;
+}
+footer .socials i:hover {
+  font-size: 25px;
+}
+footer .socials .t i:hover {
+  color: #0090ff;
+}
+footer .socials .gh i:hover {
+  color: #8a8a8a;
+}
+footer .socials .fb i:hover {
+  color: #002c63;
+}
+footer .socials .bh i:hover {
+  color: #053eff;
+}
+footer .contact a {
+  text-decoration: none;
+  font-size: 15px;
+  color: #0077b6;
+  padding: 0;
+  margin: 0;
+}
+
+footer .socials a {
+  margin: 0px;
+  font-size: 20px;
+  color: #0a0a0a;
+  text-decoration: none;
+}
+
+footer p {
+  margin: 0;
+  padding: 0%;
+  background-color: rgb(160, 255, 160);
+  color: green;
+}
